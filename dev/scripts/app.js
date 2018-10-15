@@ -3366,7 +3366,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _vie
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar list = function list() {\n  return $.ajax({\n    url: '/api/position/list',\n    success: function success(result) {\n      return result;\n    }\n  });\n};\n\nvar refresh = function refresh() {\n  return $.ajax({\n    url: '/api/position/refresh',\n    success: function success(result) {\n      return result;\n    }\n  });\n};\n\nvar loadmore = function loadmore(pageNo) {\n  return $.ajax({\n    url: '/lagou/listmore.json?pageNo=' + pageNo + '&pageSize=5',\n    success: function success(result) {\n      return result;\n    }\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  list: list,\n  refresh: refresh,\n  loadmore: loadmore\n});\n\n//# sourceURL=webpack:///./src/scripts/models/position.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar list = function list() {\n  return $.ajax({\n    url: '/api/position/list',\n    success: function success(result) {\n      return result;\n    }\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  list: list\n});\n\n//# sourceURL=webpack:///./src/scripts/models/position.js?");
 
 /***/ }),
 
@@ -3389,7 +3389,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction Router() {\n  this.r
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<div class=\\\"home-container\\\">  <header>拉勾网</header>  <main></main>  <nav>    <ul>      <li class=\\\"active\\\">        <i class=\\\"yo-ico\\\">&#xe6b8;</i>        <b>职位2</b>      </li>      <li>        <i class=\\\"yo-ico\\\">&#xe65c;</i>        <b>搜索</b>      </li>      <li>        <i class=\\\"yo-ico\\\">&#xe7d5;</i>        <b>我的</b>      </li>    </ul>  </nav></div>\"\n\n//# sourceURL=webpack:///./src/scripts/views/home.html?");
+eval("module.exports = \"<div class=\\\"home-container\\\">  <header class=\\\"top-nav\\\">   <div class=\\\"logo\\\">     <a href=\\\"\\\"><h1>豆瓣</h1></a>   </div>  </header>  <main></main> </div>\"\n\n//# sourceURL=webpack:///./src/scripts/views/home.html?");
 
 /***/ }),
 
