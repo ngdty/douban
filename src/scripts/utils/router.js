@@ -9,25 +9,23 @@ var noop = function () {}
 Router.prototype.route = function (hash, cb) {
   this.currentHash = hash
   this.routes[this.currentHash] = cb || noop
+  
 }
 
 // 路由刷新
 Router.prototype.refresh = function () {
-  let hash = location.hash || '#position'
+  let hash = location.hash || '#book'      //疑问
   this.currentHash = hash
   this.routes[this.currentHash]()
   this.switchTabbar()
+
 }
 
 // tabbar switch
 Router.prototype.switchTabbar = function () {
-  let hashs = ['#position', '#search', '#profile']
+  let hashs = ['#movie', '#book', '#status','#group']
   let index = hashs.indexOf(this.currentHash)
-  $('nav li')
-    .eq(index)
-    .addClass('active')
-    .siblings()
-    .removeClass('active')
+  console.log(index)
 }
 
 // 路由切换监听

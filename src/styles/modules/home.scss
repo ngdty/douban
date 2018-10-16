@@ -1,6 +1,7 @@
-// #root {
-//   height: 100%;
-// }
+#root {
+  height: 100%;
+ 
+}
 
 // @font-face {
 //   font-family: 'yofont';
@@ -53,12 +54,43 @@
 //   }
 // }
 
-.top-nav {
+.TalionNav {
   height: .44rem;
    background: #ccc;
-  font-size: .18rem;
+  font-size: .24rem;
   line-height: .44rem;
+  min-width: 300px ;
+  @include flexbox();
+  @include justify-content(center);
+  .top-nav{
+    @include flexbox();
+    @include justify-content(space-between);
+      width: 93%;
+   }
   h1{
-    color: green
+   
+    color: rgb(6, 150, 6);
   }
+ nav{
+  
+   ul{
+    
+    li{
+      float: left;
+      font-size: .16rem;
+      margin-left: .2rem;
+      line-height: 44px;
+      
+      img{
+        display: block;
+        margin-top: 15px;
+        width: 26px ;
+      }
+    }
+  }
+ }
+}
+.content{
+    height:100% ;
+    background: yellow;
 }

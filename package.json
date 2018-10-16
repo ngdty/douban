@@ -33,6 +33,7 @@
     "mock": "json-server ./src/mock/mock.js -r ./src/mock/route.json"
   },
   "dependencies": {
-    "@babel/runtime": "^7.1.2"
+    "@babel/runtime": "^7.1.2",
+    "gp7-npm-pub": "^2.0.0"
   }
 }

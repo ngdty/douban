@@ -720,10 +720,41 @@ a {
   -moz-osx-font-smoothing: grayscale;
   vertical-align: middle; }
 
-.top-nav {
+#root {
+  height: 100%; }
+
+.TalionNav {
   height: .44rem;
   background: #ccc;
-  font-size: .18rem;
-  line-height: .44rem; }
-  .top-nav h1 {
-    color: green; }
+  font-size: .24rem;
+  line-height: .44rem;
+  min-width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  .TalionNav .top-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 93%; }
+  .TalionNav h1 {
+    color: #069606; }
+  .TalionNav nav ul li {
+    float: left;
+    font-size: .16rem;
+    margin-left: .2rem;
+    line-height: 44px; }
+    .TalionNav nav ul li img {
+      display: block;
+      margin-top: 15px;
+      width: 26px; }
+
+.content {
+  height: 100%;
+  background: yellow; }
