@@ -1,0 +1,28 @@
+.shouye{
+    height: 100%;
+   
+    overflow-y: scroll;
+    @include flexbox();
+    @include justify-content(center);
+    padding-top:20px; 
+    .card{
+        width: 93%;
+        .feed-item{
+            margin-top: 15px;
+            border-bottom: .5px solid #ccc;
+        }
+  
+     h2{
+         line-height: 30px;
+         font-size: 17px;
+         font-weight: 100;
+     }
+     p{
+        font-size: 12px;
+        line-height: 20px;
+        color: #aaa;
+     }
+    }
+}
+
+

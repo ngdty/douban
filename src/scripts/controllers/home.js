@@ -7,7 +7,7 @@ const render = () => {
 }
 
 const changeTab = () => {
-  $('.top-nav li').on('tap', function () {   
+  $('.top-nav li ').on('tap', function () {   
                 
     let hashs = ['#movie', '#book', '#status','#group']
     location.hash = hashs[$(this).index()]

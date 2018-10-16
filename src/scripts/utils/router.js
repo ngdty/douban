@@ -14,7 +14,7 @@ Router.prototype.route = function (hash, cb) {
 
 // 路由刷新
 Router.prototype.refresh = function () {
-  let hash = location.hash || '#book'      //疑问
+  let hash = location.hash || '#shouye'      //疑问
   this.currentHash = hash
   this.routes[this.currentHash]()
   this.switchTabbar()
@@ -25,7 +25,6 @@ Router.prototype.refresh = function () {
 Router.prototype.switchTabbar = function () {
   let hashs = ['#movie', '#book', '#status','#group']
   let index = hashs.indexOf(this.currentHash)
-  console.log(index)
 }
 
 // 路由切换监听

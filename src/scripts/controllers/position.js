@@ -11,12 +11,11 @@
 //   scroll()
 // }
 
-
-// const renderList = async (list) => {
-//   let template = Handlebars.compile(positionListTpl)
-//   let html = template({ list })
-//   $('#poslist').html(html)
-// }
+// // const renderList = async (list) => {
+// //   let template = Handlebars.compile(positionListTpl)
+// //   let html = template({ list })
+// //   $('#poslist').html(html)
+// // }
 
 // export default {
 //   render
