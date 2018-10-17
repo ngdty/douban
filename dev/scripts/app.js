@@ -3413,7 +3413,7 @@ eval("module.exports = \"<div>  movie</div>\"\n\n//# sourceURL=webpack:///./src/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<div class=\\\"shouye\\\">   <div class=\\'card\\'>          {{#each list}}      <div class=\\\"feed-item\\\">            <h2>{{title}}</h2>                       <p>{{target.desc}} </p>            <p class=\\'author\\'>by:{{target.author.name}} </p><br/>      </div>     {{/each}}   </div></div>\"\n\n//# sourceURL=webpack:///./src/scripts/views/shouye.html?");
+eval("module.exports = \"<div class=\\\"shouye\\\">   <div class=\\'card\\'>          {{#each list}}      <div class=\\\"feed-item\\\">            <h2>{{title}}</h2>                       <p>{{target.desc}} </p><br/>            <p class=\\'author\\'>by:{{target.author.name}} </p><br/>      </div>     {{/each}}   </div></div>\"\n\n//# sourceURL=webpack:///./src/scripts/views/shouye.html?");
 
 /***/ }),
 
