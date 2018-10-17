@@ -753,11 +753,12 @@ a {
   .TalionNav nav ul li {
     float: left;
     font-size: .16rem;
-    margin-left: .19rem;
+    margin-right: 19px;
     line-height: 44px; }
-    .TalionNav nav ul li img {
-      display: block;
-      margin-top: 15px;
+  .TalionNav nav ul span {
+    display: block;
+    float: right; }
+    .TalionNav nav ul span img {
       width: 26px; }
 
 .content {

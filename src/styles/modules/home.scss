@@ -43,13 +43,16 @@
     li{
       float: left;
       font-size: .16rem;
-      margin-left: .19rem;
+      margin-right: 19px;
       line-height: 44px;
       
+      
+    }
+    span{
+      display: block;
+      float: right;
       img{
-        display: block;
-        margin-top: 15px;
-        width: 26px ;
+        width: 26px;
       }
     }
   }

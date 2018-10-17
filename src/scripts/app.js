@@ -1,13 +1,13 @@
 import Router from './utils/router'
 import homeController from './controllers/home'
-// import positionController from './controllers/position'
+
 import shouyeController from './controllers/shouye'
 import movieController from './controllers/movie'
 import bookController from './controllers/book'
 import statusController from './controllers/status'
 import groupController from './controllers/group'
 
-//222222
+
 
 homeController.render()
 
