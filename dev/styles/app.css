@@ -722,7 +722,12 @@ a {
 
 #root {
   height: 100%;
-  background: #fff; }
+  background: #fff;
+  max-width: 800px; }
+  #root .all {
+    height: 100%;
+    background: red;
+    z-index: 10; }
 
 .TalionNav {
   height: .44rem;
@@ -748,7 +753,7 @@ a {
   .TalionNav nav ul li {
     float: left;
     font-size: .16rem;
-    margin-left: .2rem;
+    margin-left: .19rem;
     line-height: 44px; }
     .TalionNav nav ul li img {
       display: block;

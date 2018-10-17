@@ -6,15 +6,15 @@ const render = async () => {
   $('.content').html(shouyeTpl)
   let list = datasource = (await shouyeModel.list()).recommend_feeds
   await renderList(list)
-   scroll()
+  scroll()
   console.log(list)
 }
 
-const renderList = async(list) =>{
+const renderList = async (list) => {
   let template = Handlebars.compile(shouyeTpl)
-  let html =template({ list })
+  let html = template({ list })
   $(".content").html(html)
-   //console.log(html)
+  //console.log(html)
 }
 
 export default {

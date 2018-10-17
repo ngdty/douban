@@ -3298,7 +3298,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _vie
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _views_home_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/home.html */ \"./src/scripts/views/home.html\");\n/* harmony import */ var _views_home_html__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_views_home_html__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar render = function render() {\n  document.querySelector('#root').innerHTML = _views_home_html__WEBPACK_IMPORTED_MODULE_0___default.a;\n  changeTab();\n};\n\nvar changeTab = function changeTab() {\n  $('.top-nav li ').on('tap', function () {\n    var hashs = ['#movie', '#book', '#status', '#group'];\n    location.hash = hashs[$(this).index()]; //  $(this).addClass('active').siblings().removeClass('active')\n    //   console.log(hashs);\n    // console.log($(this).index())\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: render\n});\n\n//# sourceURL=webpack:///./src/scripts/controllers/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _views_home_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/home.html */ \"./src/scripts/views/home.html\");\n/* harmony import */ var _views_home_html__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_views_home_html__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar render = function render() {\n  document.querySelector('#root').innerHTML = _views_home_html__WEBPACK_IMPORTED_MODULE_0___default.a;\n  changeTab();\n};\n\nvar changeTab = function changeTab() {\n  $('.top-nav li ').on('tap', function () {\n    var hashs = ['#movie', '#book', '#status', '#group'];\n    location.hash = hashs[$(this).index()]; //  $(this).addClass('active').siblings().removeClass('active')\n    //   console.log(hashs);\n\n    console.log($(this).index());\n  });\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  render: render\n});\n\n//# sourceURL=webpack:///./src/scripts/controllers/home.js?");
 
 /***/ }),
 
@@ -3413,7 +3413,7 @@ eval("module.exports = \"<div>  movie</div>\"\n\n//# sourceURL=webpack:///./src/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<div class=\\\"shouye\\\">   <div class=\\'card\\'>          {{#each list}}      <div class=\\\"feed-item\\\">            <h2>{{title}}</h2>            <p>{{target.desc}} </p>      </div>     {{/each}}   </div></div>\"\n\n//# sourceURL=webpack:///./src/scripts/views/shouye.html?");
+eval("module.exports = \"<div class=\\\"shouye\\\">   <div class=\\'card\\'>          {{#each list}}      <div class=\\\"feed-item\\\">            <h2>{{title}}</h2>                       <p>{{target.desc}} </p>            <p class=\\'author\\'>by:{{target.author.name}} </p><br/>      </div>     {{/each}}   </div></div>\"\n\n//# sourceURL=webpack:///./src/scripts/views/shouye.html?");
 
 /***/ }),
 

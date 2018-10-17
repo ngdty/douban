@@ -13,7 +13,7 @@ const changeTab = () => {
     location.hash = hashs[$(this).index()]
     //  $(this).addClass('active').siblings().removeClass('active')
   //   console.log(hashs);
-  // console.log($(this).index())
+  console.log($(this).index())
   })
 }
 

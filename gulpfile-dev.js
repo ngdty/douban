@@ -62,15 +62,14 @@ gulp.task('server', () => {
         proxy('/api', {
           target: 'http://localhost:3000',
           changeOrigin: true
-        }),
-        
-        proxy('/rexxar', {
-          target: 'https://m.douban.com',
-          changeOrigin: true,
-          pathRewrite: {
-            '^/rexxar': ''
-          }
-        }),
+        }),       
+        // proxy('/rexxar', {
+        //   target: 'https://m.douban.com',
+        //   changeOrigin: true,
+        //   pathRewrite: {
+        //     '^/rexxar': ''
+        //   }
+        // }),
         proxy('/shouye', {
           target: 'https://m.douban.com/',
           changeOrigin: true,
